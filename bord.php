@@ -2,49 +2,52 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Tableau de bord</title>
-  <link rel="stylesheet" href="style.CSS">
-  
+  <title>Tableau de Bord</title>
+  <link rel="stylesheet" href="bord.css">
 </head>
-<body class="bg-gray-100 text-gray-900">
-
-  <div class="flex min-h-screen">
-    <!-- Sidebar -->
-    <aside class="w-64 bg-blue-700 text-white p-4">
-      <h2 class="text-xl font-bold mb-6"><i>Tableau de bord</i></h2>
-      <ul class="space-y-3">
-        <li><a href="#" class="block hover:bg-blue-600 p-2 rounded">Client</a></li>
-        <li><a href="#" class="block hover:bg-blue-600 p-2 rounded">Réservations</a></li>
-        <li><a href="#" class="block hover:bg-blue-600 p-2 rounded">Voyages</a></li>
-      </ul>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Tableau De Bord</h2>
+      <nav>
+        <ul>
+          <li><i class="fas fa-user"></i> Clients</li>
+          <li><i class="fas fa-book"></i> Reservation</li>
+          <li><i class="fas fa-plane-departure"></i> Voyages</li>
+        </ul>
+      </nav>
     </aside>
 
-    <!-- Main Content -->
-    <main class="flex-1 p-6">
-      <h1 class="text-2xl font-bold mb-6">Clients</h1>
-      <section class="admin-section">
-    <table>
-    
-      <thead>
-        <tr>
-          <th>Nom</th>
-          <th>Email</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody id="clientTable">
-
-          <td>Assitan Diallo</td>
-          <td>adiallo@exemple.com</td>
-          <td><button>Supprimer</button></td>
-
-        <tr>
-          <td>Dada Dao</td>
-          <td>dao@exemple.com</td>
-          <td><button>Supprimer</button></td>
-        </tr>
-          </main>
+    <main class="main-content">
+      <h1>Clients</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Email</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Assitan Diallo</td>
+            <td>Adiallo@Exemple.Com</td>
+            <td>
+              <a href="#"><i class="fas fa-pen"></i></a>
+              <a href="#"><i class="fas fa-trash"></i></a>
+            </td>
+          </tr>
+          <tr>
+            <td>Dada Dao</td>
+            <td>Dao@Exemple.Com</td>
+            <td>
+              <a href="#"><i class="fas fa-pen"></i></a>
+              <a href="#"><i class="fas fa-trash"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
   </div>
-
 </body>
 </html>

@@ -37,17 +37,17 @@
     <h2>Destinations populaires</h2>
     <div class="cards">
       <div class="card">
-        <img src="IMG-20250504-WA0023[1].jpg" alt="Goa">
+        <img src="Image 2025-05-05 à 20.29.58_afa66277.jpg" alt="Goa">
         <h3>GOA</h3>
         <p>11 000 CFA</p>
       </div>
       <div class="card">
-        <img src="IMG-20250504-WA0023[1].jpg" alt="Mopti">
+        <img src="Image 2025-05-05 à 20.29.57_421a1413.jpg" alt="Mopti">
         <h3>Mopti</h3>
         <p>10 000 CFA</p>
       </div>
       <div class="card">
-        <img src="IMG-20250504-WA0023[1].jpg" alt="Bamako">
+        <img src="Image 2025-05-05 à 20.29.57_670adc00.jpg" alt="Bamako">
         <h3>Bamako</h3>
         <p>5 000 CFA</p>
       </div>
