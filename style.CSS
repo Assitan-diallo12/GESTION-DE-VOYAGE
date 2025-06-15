@@ -1,0 +1,71 @@
+.form-container {
+  max-width: 400px;
+  margin: 2em auto;
+  padding: 2em;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 1em;
+}
+
+form input, form button, form select {
+  width: 100%;
+  padding: 0.7em;
+  margin-top: 0.5em;
+}
+
+form button {
+  background: #006666;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-section {
+  padding: 2em;
+}
+
+.admin-section table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.admin-section th, .admin-section td{
+  border: 1px solid #ccc;
+  padding: 1em;
+  text-align: center;
+}
+.form-group{
+    flex: 1;
+}
+.sidebar {
+ background-color: #f0f0f0;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  }
+   .sidebar a {
+            padding: 10px 0;
+            text-decoration: none;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .sidebar a.active {
+            font-weight: bold;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+
+
